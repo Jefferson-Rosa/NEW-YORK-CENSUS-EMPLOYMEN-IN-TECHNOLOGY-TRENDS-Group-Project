@@ -1,0 +1,173 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>Final Project</Database>
+    <Server>DESKTOP-E0A3SRQ\MSSQLSERVER2017</Server>
+    <ConnectionString>Data Source=DESKTOP-E0A3SRQ\MSSQLSERVER2017;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>DeV742GUnx6IcAdBNBe8P+iodgs=12/13/2021 4:45:15 PM12/13/2021 4:45:15 PM</TimeStamp>
+        <ID>
+          <String>Final Project</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>mDMI7IJqONVf5LVo5LyBC8XK3dM=12/13/2021 4:45:46 PM12/13/2021 4:45:46 PM</TimeStamp>
+        <ID>
+          <String>Final Project Ethnicity View</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>NzWSApgagVgey2PsYstFcVrn8Z8=12/13/2021 4:46:30 PM12/13/2021 4:46:30 PM</TimeStamp>
+        <ID>
+          <String>Final Project Race View</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>gSGBfZm45JIKNVtqgWohxaU9t/g=12/13/2021 4:46:53 PM12/13/2021 4:46:53 PM</TimeStamp>
+        <ID>
+          <String>Final Project Demography View</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>cI3tSnxfboajKMiw94X2odA3xnM=12/13/2021 4:47:11 PM12/13/2021 4:47:11 PM</TimeStamp>
+        <ID>
+          <String>Final Project Estimate View</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>4okoRJznPYmSuDrgJnhZB8XyhNI=12/13/2021 4:47:27 PM12/13/2021 4:47:27 PM</TimeStamp>
+        <ID>
+          <String>Final Project Earning View</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>J4m+xvf1dQnEHwYq24ujASQg3CI=12/13/2021 4:48:26 PM12/13/2021 4:47:47 PM</TimeStamp>
+        <ID>
+          <String>Dim Company</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>q+uUL8bJizVXloBjMiwvKyy7/xg=12/13/2021 4:48:26 PM12/13/2021 4:47:47 PM</TimeStamp>
+        <ID>
+          <String>Dim Date</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>sF241eZO0FIVZj4n36mjxzizZEE=12/13/2021 4:48:26 PM12/13/2021 4:47:47 PM</TimeStamp>
+        <ID>
+          <String>Fact Ethnicity</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>ROyf94XM8RzlCrdGF+Y/h757CrM=12/13/2021 4:48:59 PM12/13/2021 4:48:26 PM</TimeStamp>
+        <ID>
+          <String>Dim County</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>/jQXOgMQpoeYflMdcmqd74ypr5o=12/13/2021 4:48:59 PM12/13/2021 4:48:26 PM</TimeStamp>
+        <ID>
+          <String>Fact Race</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>R+4tbS/ns1Ruv4/yKvfEr209Oh8=12/13/2021 4:49:45 PM12/13/2021 4:48:58 PM</TimeStamp>
+        <ID>
+          <String>Fact Gender</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>quY2CTSg9pwrbEtBNXDIsDCeQmY=12/13/2021 4:49:45 PM12/13/2021 4:48:58 PM</TimeStamp>
+        <ID>
+          <String>Dim Dept Type</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>9XV43fLSfWmk+FTbkwFf4BzTtDg=12/13/2021 4:49:45 PM12/13/2021 4:48:59 PM</TimeStamp>
+        <ID>
+          <String>Dim Year</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>EPCuJWK4MBcHefmAsHLcp3IptOE=12/13/2021 4:50:09 PM12/13/2021 4:49:45 PM</TimeStamp>
+        <ID>
+          <String>Dim Occupation</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>tMU2ZLb3m3P5w8tvrgDTzYKiPg8=12/13/2021 4:50:09 PM12/13/2021 4:49:45 PM</TimeStamp>
+        <ID>
+          <String>Fact Estimates</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>kzqAuxxQKL3anXiq2j6CzSvzGWg=12/13/2021 4:48:26 PM12/13/2021 4:47:47 PMv/t+oSqPkYoafZZHPxgOE8rBH+o=12/13/2021 4:47:47 PM12/13/2021 4:47:47 PM</TimeStamp>
+        <ID>
+          <String>Final Project Ethnicity Cube</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>1x0D47E7keJvHJRTRWJcz7PebAQ=12/13/2021 4:48:59 PM12/13/2021 4:48:26 PMd11utLNrby6E61DeyXkONNN/xvs=12/13/2021 4:48:26 PM12/13/2021 4:48:26 PM</TimeStamp>
+        <ID>
+          <String>Final Project Race Cube</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>o7cc2dr7OSMLf6y5Lxhzrlagc64=12/13/2021 4:49:45 PM12/13/2021 4:48:58 PMkUl766ArTjjPIRuywrHOLs8C4Ms=12/13/2021 4:48:59 PM12/13/2021 4:48:58 PM</TimeStamp>
+        <ID>
+          <String>Final Project Demography Cube</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>SDKNbi3T+us6uf6UQhNqioGSjV0=12/13/2021 4:50:09 PM12/13/2021 4:49:45 PMzA4N2RFFRnT9795NAG6bdkVvHdI=12/13/2021 4:49:45 PM12/13/2021 4:49:45 PM</TimeStamp>
+        <ID>
+          <String>Final Project Estimate Cube</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>BN75EbHgUPliBnqivkbPedGOUv0=12/13/2021 4:41:46 PM12/13/2021 4:41:46 PM</TimeStamp>
+      <ID>
+        <String>Final Project</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2021-12-13T21:51:11.696667Z</LastDeployed>
+</DeploymentSnapshot>

@@ -1,0 +1,138 @@
+﻿<Project xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <ProductVersion>15.0.19623.0</ProductVersion>
+  <SchemaVersion>9.0.2.10</SchemaVersion>
+  <State>$base64$PFNvdXJjZUNvbnRyb2xJbmZvIHhtbG5zOnhzZD0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEiIHhtbG5zOnhzaT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiIHhtbG5zOmRkbDI9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDAzL2VuZ2luZS8yIiB4bWxuczpkZGwyXzI9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDAzL2VuZ2luZS8yLzIiIHhtbG5zOmRkbDEwMF8xMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDA4L2VuZ2luZS8xMDAvMTAwIiB4bWxuczpkZGwyMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEwL2VuZ2luZS8yMDAiIHhtbG5zOmRkbDIwMF8yMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEwL2VuZ2luZS8yMDAvMjAwIiB4bWxuczpkZGwzMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDExL2VuZ2luZS8zMDAiIHhtbG5zOmRkbDMwMF8zMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDExL2VuZ2luZS8zMDAvMzAwIiB4bWxuczpkZGw0MDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEyL2VuZ2luZS80MDAiIHhtbG5zOmRkbDQwMF80MDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEyL2VuZ2luZS80MDAvNDAwIiB4bWxuczpkZGw1MDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEzL2VuZ2luZS81MDAiIHhtbG5zOmRkbDUwMF81MDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEzL2VuZ2luZS81MDAvNTAwIiB4bWxuczpkd2Q9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vRGF0YVdhcmVob3VzZS9EZXNpZ25lci8xLjAiPg0KICA8RW5hYmxlZD5mYWxzZTwvRW5hYmxlZD4NCiAgPFByb2plY3ROYW1lPjwvUHJvamVjdE5hbWU+DQogIDxBdXhQYXRoPjwvQXV4UGF0aD4NCiAgPExvY2FsUGF0aD48L0xvY2FsUGF0aD4NCiAgPFByb3ZpZGVyPjwvUHJvdmlkZXI+DQo8L1NvdXJjZUNvbnRyb2xJbmZvPg==</State>
+  <Database>
+    <Name>Final Project.database</Name>
+    <FullPath>Final Project.database</FullPath>
+  </Database>
+  <Cubes>
+    <ProjectItem>
+      <Name>Final Project Ethnicity Cube.cube</Name>
+      <FullPath>Final Project Ethnicity Cube.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Final Project Ethnicity Cube.partitions</Name>
+          <FullPath>Final Project Ethnicity Cube.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Final Project Race Cube.cube</Name>
+      <FullPath>Final Project Race Cube.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Final Project Race Cube.partitions</Name>
+          <FullPath>Final Project Race Cube.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Final Project Demography Cube.cube</Name>
+      <FullPath>Final Project Demography Cube.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Final Project Demography Cube.partitions</Name>
+          <FullPath>Final Project Demography Cube.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Final Project Estimate Cube.cube</Name>
+      <FullPath>Final Project Estimate Cube.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Final Project Estimate Cube.partitions</Name>
+          <FullPath>Final Project Estimate Cube.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+  </Cubes>
+  <Dimensions>
+    <ProjectItem>
+      <Name>Dim Company.dim</Name>
+      <FullPath>Dim Company.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Date.dim</Name>
+      <FullPath>Dim Date.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Fact Ethnicity.dim</Name>
+      <FullPath>Fact Ethnicity.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim County.dim</Name>
+      <FullPath>Dim County.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Fact Race.dim</Name>
+      <FullPath>Fact Race.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Fact Gender.dim</Name>
+      <FullPath>Fact Gender.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Dept Type.dim</Name>
+      <FullPath>Dim Dept Type.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Year.dim</Name>
+      <FullPath>Dim Year.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Occupation.dim</Name>
+      <FullPath>Dim Occupation.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Fact Estimates.dim</Name>
+      <FullPath>Fact Estimates.dim</FullPath>
+    </ProjectItem>
+  </Dimensions>
+  <DataSources>
+    <ProjectItem>
+      <Name>Final Project.ds</Name>
+      <FullPath>Final Project.ds</FullPath>
+    </ProjectItem>
+  </DataSources>
+  <DataSourceViews>
+    <ProjectItem>
+      <Name>Final Project Ethnicity View.dsv</Name>
+      <FullPath>Final Project Ethnicity View.dsv</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Final Project Race View.dsv</Name>
+      <FullPath>Final Project Race View.dsv</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Final Project Demography View.dsv</Name>
+      <FullPath>Final Project Demography View.dsv</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Final Project Estimate View.dsv</Name>
+      <FullPath>Final Project Estimate View.dsv</FullPath>
+    </ProjectItem>
+  </DataSourceViews>
+  <Configurations>
+    <Configuration>
+      <Name>Development</Name>
+      <Options>
+        <ConnectionMappings>
+          <ConfigurationSetting>
+            <Id>Final Project</Id>
+            <Name>Final Project</Name>
+            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=DESKTOP-E0A3SRQ\MSSQLSERVER2017;Integrated Security=SSPI;Initial Catalog=FinalProject</Value>
+          </ConfigurationSetting>
+        </ConnectionMappings>
+        <ConnectionSecurityMappings>
+          <ConfigurationSetting>
+            <Id>Final Project</Id>
+            <Name>Final Project</Name>
+            <Value xsi:type="xsd:int">0</Value>
+          </ConfigurationSetting>
+        </ConnectionSecurityMappings>
+      </Options>
+    </Configuration>
+  </Configurations>
+</Project>

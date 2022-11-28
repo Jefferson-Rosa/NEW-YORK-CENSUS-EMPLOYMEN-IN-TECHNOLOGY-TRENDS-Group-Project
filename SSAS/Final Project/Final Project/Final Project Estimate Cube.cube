@@ -1,0 +1,294 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="a181394a-b521-4405-bd2e-e18821a271e2" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Final Project Estimate Cube</ID>
+  <Name>Final Project Estimate Cube</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="4" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-8327" scrolltop="-1869" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="20849" y="13441" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="FactEstimates" left="483" top="4702" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3228" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00009c0c000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_FactEstimates" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="dimOccupation" left="20" top="0" logicalid="2" controlid="2" masterid="0" hint1="0" hint2="0" width="4154" height="2302" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00003a100000fe080000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_dimOccupation" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="1698" top="1803" logicalid="3" controlid="3" masterid="0" hint1="0" hint2="0" width="799" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK__FactEstim__Occup__45BE5BA9]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="1" sourceattachpoint="7" destattachpoint="4" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="2097" y="2302" />
+              <point x="2097" y="4702" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-8327</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-1869</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="cf9d108c-36bc-42e7-8653-b3610efdcf69">
+      <ID>Fact Estimates</ID>
+      <Name>Fact Estimates</Name>
+      <DimensionID>Fact Estimates</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="9349ba79-bdae-4705-854c-55259d96e4ed">
+          <AttributeID>Estimate Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ccfa3d3a-594e-4e93-a930-5722e27a1542">
+          <AttributeID>Occupationkey</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="78120519-d138-450d-99fa-d31f9a61dc4c">
+          <AttributeID>Total Estimate</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="57dc3a0d-bc36-4e1f-aacb-561891c0882b">
+          <AttributeID>Total MOE</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ab35433c-b907-4d55-8db7-8084df31312a">
+          <AttributeID>NB Estimate</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b9e0ec28-a9f0-412d-84c7-eeb412393b6d">
+          <AttributeID>NBMOE</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e94fb025-b7d9-4f4d-9b0c-daf55f4a8d60">
+          <AttributeID>NB Percent</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3dd45db0-613d-405a-be90-03bbf18483d1">
+          <AttributeID>NBMOE Percent</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="2a5bd574-8ca2-45de-bcd4-69341dfdbf12">
+          <AttributeID>FB Estimate</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c2b6fe6d-09fe-4469-a300-ec293ed1ab25">
+          <AttributeID>FBMOE</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6eae7a89-6561-49e8-bfdd-99fbe9ad96db">
+          <AttributeID>FBMOE Percent</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="7b296e51-c752-4e85-b7d8-8c710350f279">
+      <ID>Dim Occupation</ID>
+      <Name>Dim Occupation</Name>
+      <DimensionID>Dim Occupation</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="9dd81656-373d-431b-ace4-893547407c97">
+          <AttributeID>Occupationkey</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="76681cfb-509b-496a-b9f4-13b6517c720f">
+          <AttributeID>Occupational Category</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a19cc97a-15c1-461d-a103-a6b2f80195db">
+          <AttributeID>Occupation Type</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="a09b3a48-a34b-4c3a-8861-8753038d9960">
+      <ID>Fact Estimates</ID>
+      <Name>Fact Estimates</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="4abc2f55-c8fd-4336-b359-1b8d05e6653c">
+          <ID>Total Estimate</ID>
+          <Name>Total Estimate</Name>
+          <Source dwd:design-time-name="f3d45418-2502-4a22-9daf-341ab5c39156">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="07c6dcff-adcb-46c5-86f1-335e425a642d">
+              <TableID>dbo_FactEstimates</TableID>
+              <ColumnID>TotalEstimate</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="bef0a0f1-a189-4fcb-9ad4-66c9cb788ae8">
+          <ID>Total MOE</ID>
+          <Name>Total MOE</Name>
+          <Source dwd:design-time-name="cddb8427-d58e-4a14-a1c2-a146a5a22eac">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="a6c181e8-85b5-4a30-bed6-7027b3314cdd">
+              <TableID>dbo_FactEstimates</TableID>
+              <ColumnID>TotalMOE</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="5c422193-4732-42c2-9ce7-b4bc8203f331">
+          <ID>Fact Estimates Count</ID>
+          <Name>Fact Estimates Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="e268de22-91e5-419e-920d-a393f39ff4e9">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="79e36f49-9817-480c-b175-5f9935e119c1">
+              <TableID>dbo_FactEstimates</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="79e5ab42-661f-4d35-a8db-ed2a5c35db28">
+          <CubeDimensionID>Fact Estimates</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="6b63fcfc-a8ac-490b-a36f-a7ea04db1121">
+              <AttributeID>Estimate Key</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="0a82d920-5426-4ee0-8a8d-6f79e5d8b0f4">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="65182970-4461-461e-84bd-ebb1f155408c">
+                    <TableID>dbo_FactEstimates</TableID>
+                    <ColumnID>EstimateKey</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="641a5780-d1b0-42d3-a441-27f3e4c869d4">
+          <CubeDimensionID>Dim Occupation</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="f6370e0f-c6ba-4bd2-90fd-45943e8afdc1">
+              <AttributeID>Occupationkey</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="01cf155d-6d39-4936-be22-d2c4eb1dadff">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="4b57066c-11e8-4fd5-b9a3-dc0412769836">
+                    <TableID>dbo_FactEstimates</TableID>
+                    <ColumnID>Occupationkey</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="80728c7e-a0bf-4f9d-ba66-631e68f677f8">
+      <ID>Dim Occupation</ID>
+      <Name>Dim Occupation</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="87990a80-c84a-497e-8af4-66dfeb4d786d">
+          <ID>Dim Occupation Count</ID>
+          <Name>Dim Occupation Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="553cf952-97c6-4f35-ab5e-5a811e4fb318">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="5dcbce10-1c48-4673-a1f4-e2bff7969f1a">
+              <TableID>dbo_dimOccupation</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="b2fdad9d-1cd9-4a20-858b-5ab22ef235d9">
+          <CubeDimensionID>Dim Occupation</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="1e5bd7e1-2a57-435b-9381-633f932e1b7b">
+              <AttributeID>Occupationkey</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="aaae2c9d-c9ac-42a5-be30-ef5df1032a1e">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="02ed943f-f855-4d76-b1d6-f9081a3166fc">
+                    <TableID>dbo_dimOccupation</TableID>
+                    <ColumnID>Occupationkey</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="53902c17-9780-4069-acd7-e4352cda781c">
+    <DataSourceViewID>Final Project Estimate View</DataSourceViewID>
+  </Source>
+</Cube>

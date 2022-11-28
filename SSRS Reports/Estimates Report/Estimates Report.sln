@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1622
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "Estimates Report", "Estimates Report\Estimates Report.rptproj", "{20747B16-021F-4F71-9A27-B9B874FB1AC3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{20747B16-021F-4F71-9A27-B9B874FB1AC3}.Debug|Default.ActiveCfg = Debug
+		{20747B16-021F-4F71-9A27-B9B874FB1AC3}.Debug|Default.Build.0 = Debug
+		{20747B16-021F-4F71-9A27-B9B874FB1AC3}.Debug|Default.Deploy.0 = Debug
+		{20747B16-021F-4F71-9A27-B9B874FB1AC3}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{20747B16-021F-4F71-9A27-B9B874FB1AC3}.DebugLocal|Default.Build.0 = DebugLocal
+		{20747B16-021F-4F71-9A27-B9B874FB1AC3}.Release|Default.ActiveCfg = Release
+		{20747B16-021F-4F71-9A27-B9B874FB1AC3}.Release|Default.Build.0 = Release
+		{20747B16-021F-4F71-9A27-B9B874FB1AC3}.Release|Default.Deploy.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1D7F7DA1-042F-4450-A60C-8CB5FA705B0B}
+	EndGlobalSection
+EndGlobal

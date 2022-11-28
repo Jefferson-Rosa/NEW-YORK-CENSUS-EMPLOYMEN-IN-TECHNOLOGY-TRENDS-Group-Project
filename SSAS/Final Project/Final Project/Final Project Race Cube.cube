@@ -1,0 +1,315 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="4055ed90-97d7-46e4-b148-e6ba2943a92f" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Final Project Race Cube</ID>
+  <Name>Final Project Race Cube</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="4" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-8904" scrolltop="-2371" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="20849" y="13441" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimCounty" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3000" height="1879" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b000057070000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimCounty" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="FactRace" left="20" top="4279" logicalid="2" controlid="2" masterid="0" hint1="0" hint2="0" width="3000" height="4419" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b000043110000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_FactRace" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="1121" top="1380" logicalid="3" controlid="3" masterid="0" hint1="0" hint2="0" width="799" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK__FactRace__County__4F47C5E3]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="2" sourceattachpoint="5" destattachpoint="4" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="1520" y="1879" />
+              <point x="1520" y="4279" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-8904</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-2371</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="8c489b73-e6a8-4985-a4fd-de338b8fb83a">
+      <ID>Fact Race</ID>
+      <Name>Fact Race</Name>
+      <DimensionID>Fact Race</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="88e832de-dd6f-44b9-a8a6-c184eef5be49">
+          <AttributeID>Race Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="87e7bac7-c68c-4ce7-b035-fa55c0fc4ddf">
+          <AttributeID>County Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="1ea8cb1d-60ee-4e24-90de-0e2a6eb567f2">
+          <AttributeID>White</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="322bbee3-c0ae-4eb9-8fd4-8a4b065a37de">
+          <AttributeID>Black</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5860bf16-ab92-4c7e-93fb-646964a2b617">
+          <AttributeID>Indian</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="facba3a4-0e96-490b-b856-480afd2dbc57">
+          <AttributeID>Asian</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="94bfdcd3-6231-4bb3-bd16-a35978139905">
+          <AttributeID>Pacific</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="57d7f2ed-5cd6-4b73-b745-50e42d686ea0">
+          <AttributeID>Other</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="12f6115b-0a96-4721-8b35-ad513ffcc7ab">
+      <ID>Dim County</ID>
+      <Name>Dim County</Name>
+      <DimensionID>Dim County</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="54dacdaa-ca18-4a4e-95c8-b8cd7aad5032">
+          <AttributeID>County Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b0326497-6b85-41d2-8ddb-db5db5ab238a">
+          <AttributeID>County</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="3917e976-0694-4ca7-b876-40580fcf784c">
+      <ID>Fact Race</ID>
+      <Name>Fact Race</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="84153f9d-c253-49a9-8a4d-41a4cbee6271">
+          <ID>White</ID>
+          <Name>White</Name>
+          <Source dwd:design-time-name="174003c6-2cd6-4403-8d5c-1f6b49041d7c">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="74871945-847b-4269-8a74-9bbd029c56e3">
+              <TableID>dbo_FactRace</TableID>
+              <ColumnID>White</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="1a5b3a40-f933-49d4-b3b1-a4c247468afc">
+          <ID>Black</ID>
+          <Name>Black</Name>
+          <Source dwd:design-time-name="d81fd314-66bc-4a14-9726-5b3f572675f2">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="9c028a9e-061f-4691-beaa-a02a25ddf95d">
+              <TableID>dbo_FactRace</TableID>
+              <ColumnID>Black</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="ba6e9c06-03dc-4ee7-8d1c-5491387c033c">
+          <ID>Indian</ID>
+          <Name>Indian</Name>
+          <Source dwd:design-time-name="29a17f23-92e1-45a5-9309-3d391720a8e6">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="10b7cb75-395b-4060-b00d-0ac5e020f682">
+              <TableID>dbo_FactRace</TableID>
+              <ColumnID>Indian</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="62fd6020-39c4-427a-b28a-7e4623e56056">
+          <ID>Asian</ID>
+          <Name>Asian</Name>
+          <Source dwd:design-time-name="1793407b-8ca5-4ecc-ba4b-85d1ccf11dbe">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="fc8764c0-8569-4029-bece-5753d5f43c51">
+              <TableID>dbo_FactRace</TableID>
+              <ColumnID>Asian</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="605673c9-4d12-43af-ba15-5f0937219bd1">
+          <ID>Other</ID>
+          <Name>Other</Name>
+          <Source dwd:design-time-name="c082a91c-6df1-436e-b4fe-f90e6124b10c">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="095da3a4-4a6c-4588-b9eb-ca7c82044f75">
+              <TableID>dbo_FactRace</TableID>
+              <ColumnID>Other</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="fbab79ad-fee4-4d4f-92f3-8676587c465b">
+          <ID>Fact Race Count</ID>
+          <Name>Fact Race Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="de53531e-8f48-4df8-b4d6-bd3f363e4034">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="7cec2e11-56fa-4bdd-8499-b3d51f9cbee9">
+              <TableID>dbo_FactRace</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="dbb23cdd-c112-467b-b3e1-5a46390adb73">
+          <CubeDimensionID>Fact Race</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="71321f34-fe48-4bf1-8ef7-228394626529">
+              <AttributeID>Race Key</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="388357e5-0c80-433d-823c-7026666e806e">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="356c83b2-5447-4576-a741-b7f620083318">
+                    <TableID>dbo_FactRace</TableID>
+                    <ColumnID>RaceKey</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="f782620e-a375-45b2-b40f-ec224f72d7f8">
+          <CubeDimensionID>Dim County</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="78b0f1d3-2969-4119-ae91-5ab7cca6a39f">
+              <AttributeID>County Key</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="b6bec851-89d3-4cb6-8c42-f8dab6a03f97">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="080a9a55-0436-44b2-b50b-8fece77de526">
+                    <TableID>dbo_FactRace</TableID>
+                    <ColumnID>CountyKey</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="db21b12e-b12e-4046-9ecb-6402c6af947e">
+      <ID>Dim County</ID>
+      <Name>Dim County</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="4bd8e002-5aa9-4453-b672-fe46678284d1">
+          <ID>Dim County Count</ID>
+          <Name>Dim County Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="df9877e6-e4b9-4218-a050-9c2ccbedf534">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="8641c291-c416-42c1-97dd-adfe2cc21246">
+              <TableID>dbo_DimCounty</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="5bfa65a6-fdb7-4be7-85d5-9e1004fe9136">
+          <CubeDimensionID>Dim County</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="4c6a7acd-6e41-4852-96dc-d0c50eb0a830">
+              <AttributeID>County Key</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="32b27bd4-b63c-471b-b34f-8cf65c473c8b">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="63a18a9f-6cea-422f-9aa2-335ac2d06970">
+                    <TableID>dbo_DimCounty</TableID>
+                    <ColumnID>CountyKey</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="846d5037-793b-4213-a9e7-97dd72a2f08d">
+    <DataSourceViewID>Final Project Race View</DataSourceViewID>
+  </Source>
+</Cube>

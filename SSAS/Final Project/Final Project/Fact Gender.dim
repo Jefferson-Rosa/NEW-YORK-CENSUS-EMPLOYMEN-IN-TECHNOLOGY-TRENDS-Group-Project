@@ -1,0 +1,258 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="ac9c4b7b-fc35-4eca-965c-40d309f818f4" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Fact Gender</ID>
+  <Name>Fact Gender</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2369" scrolltop="-4511" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="7779" y="13441" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="FactGender" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3000" height="4419" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b000043110000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_FactGender" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-2369</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-4511</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="3588e490-6545-4c17-a0b8-45893063c911">
+    <DataSourceViewID>Final Project Demography View</DataSourceViewID>
+  </Source>
+  <UnknownMember>Visible</UnknownMember>
+  <ErrorConfiguration dwd:design-time-name="e07381e8-2463-4327-9bfb-7a6474bb6eb7">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="e861a8f5-c911-41ac-9b2b-ecc903539e34">
+      <ID>Genderkey</ID>
+      <Name>Genderkey</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="634d211c-536f-49d3-aa87-c4b4dc4c5321">
+          <DataType>Integer</DataType>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="0810e5b1-6ffa-4694-a5b3-0b4c004205f1">
+            <TableID>dbo_FactGender</TableID>
+            <ColumnID>Genderkey</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="6267476d-9cb5-4ff9-8f95-b1457c25fab1">
+          <AttributeID>Dept Key</AttributeID>
+          <Name>Dept Key</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="2dd477a4-be62-4e9f-ba4c-b533e39ac5cb">
+          <AttributeID>Ethnicity Key</AttributeID>
+          <Name>Ethnicity Key</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="b5026f59-de70-4951-9f78-b9acd3624915">
+          <AttributeID>Dept Key 1</AttributeID>
+          <Name>Dept Key 1</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="0fdaddc4-5c64-4c95-aede-541eeb775bda">
+          <AttributeID>Gender Id</AttributeID>
+          <Name>Gender Id</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="9cc9b228-4104-450a-89e8-f65a86cef8be">
+          <AttributeID>Female</AttributeID>
+          <Name>Female</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="80f8340b-387b-4d33-b44b-01263c7f40f9">
+          <AttributeID>Male</AttributeID>
+          <Name>Male</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="23d2db6d-278b-4462-b8c6-75ceca8c4e6e">
+          <AttributeID>Total Male</AttributeID>
+          <Name>Total Male</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="3a21b96a-11a5-4e70-9f0e-d18c6eb91b84">
+          <AttributeID>Total Female</AttributeID>
+          <Name>Total Female</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="a52fddbe-1f8e-4ae2-9035-d02f16f38116">
+      <ID>Dept Key</ID>
+      <Name>Dept Key</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e27b6cb0-a562-4efa-ae21-d3dcc435d294">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="5de2779f-459c-48a9-bace-bfe826e678df">
+            <TableID>dbo_FactGender</TableID>
+            <ColumnID>DeptKey</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="fccc8631-150d-4f88-aeef-62ddbd547aae">
+      <ID>Ethnicity Key</ID>
+      <Name>Ethnicity Key</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="bab2c80d-41cd-4a2a-8d60-fe592d189913">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="4c768fe3-6922-4769-ac11-9f0cde9f3478">
+            <TableID>dbo_FactGender</TableID>
+            <ColumnID>EthnicityKey</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="3edd4abe-3f49-4181-b61a-e0fecd2d85d1">
+      <ID>Dept Key 1</ID>
+      <Name>Dept Key 1</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="ca1cd3dc-74e2-40b8-ae44-7786fcb297c4">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="23bece22-576a-4bf2-aa26-c34d6cdb2fce">
+            <TableID>dbo_FactGender</TableID>
+            <ColumnID>DeptKey</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="13bf9393-bbc8-41bb-9b19-b96433799749">
+      <ID>Gender Id</ID>
+      <Name>Gender Id</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="91f63efa-7782-4e5e-b56c-8df17cd57ab2">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="06a9137e-90da-4c6f-9f47-e14815dca162">
+            <TableID>dbo_FactGender</TableID>
+            <ColumnID>Gender_id</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="da35c42d-9866-42e6-b713-b27ea8adb3a0">
+      <ID>Female</ID>
+      <Name>Female</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="1afb3de0-b461-4a46-98de-a2d2a635bf10">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="8a084883-dd5e-4862-baf7-de3ad35d21bc">
+            <TableID>dbo_FactGender</TableID>
+            <ColumnID>Female</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="5a2dae94-35d2-4dac-8ff5-850050bbee1a">
+      <ID>Male</ID>
+      <Name>Male</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="82a2d461-0a05-4211-8905-9a0d1f61c135">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="278da09f-ccb1-45c4-a889-594882ad0c58">
+            <TableID>dbo_FactGender</TableID>
+            <ColumnID>Male</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="bf60fe5b-7a72-46bf-b2d7-9115550faaa8">
+      <ID>Total Male</ID>
+      <Name>Total Male</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="40bcd4a7-1e6d-4889-8e4b-50d84eed96f8">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d532db30-8999-4a28-93c8-4ddf14b1a3c6">
+            <TableID>dbo_FactGender</TableID>
+            <ColumnID>Total_Male</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="7292ee72-62ee-49fa-8e5e-378667c41c20">
+      <ID>Total Female</ID>
+      <Name>Total Female</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="82a668b1-e5a3-410c-8a6d-44635928e65a">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f5ead2d6-8dd1-4ddd-844f-d6708e543ab0">
+            <TableID>dbo_FactGender</TableID>
+            <ColumnID>Total_Female</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

@@ -1,0 +1,141 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="29b402a1-fa87-415e-baee-af38b2448c34" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Final Project Ethnicity View</ID>
+  <Name>Final Project Ethnicity View</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+      <Value></Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout />
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>0</DiagramViewPortLeft>
+            <DiagramViewPortTop>0</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>100</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>Final Project</DataSourceID>
+  <Schema>
+    <xs:schema id="Final_x0020_Project_x0020_Ethnicity_x0020_View" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="Final_x0020_Project_x0020_Ethnicity_x0020_View" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="3bf49e05-bcc9-4ef3-a5e2-830308d73efd">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="dbo_FactEthnicity" msprop:design-time-name="c27c48a9-a458-4c02-bf3e-be3a6f9bb64f" msprop:DbTableName="FactEthnicity" msprop:FriendlyName="FactEthnicity" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="EthKey" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="6c582f64-3377-46b0-ada7-83dfcb4dfe52" msprop:DbColumnName="EthKey" msprop:FriendlyName="EthKey" type="xs:int" />
+                  <xs:element name="Datekey" msprop:design-time-name="b2e1e57a-eaae-4f55-ac70-7ba3222c3c47" msprop:DbColumnName="Datekey" msprop:FriendlyName="Datekey" type="xs:int" minOccurs="0" />
+                  <xs:element name="CompKey" msprop:design-time-name="ac409599-15c5-42e3-9487-eaac90aaf658" msprop:DbColumnName="CompKey" msprop:FriendlyName="CompKey" type="xs:int" minOccurs="0" />
+                  <xs:element name="Male" msprop:design-time-name="a196efe5-eeea-4579-b470-8ec41b51f5bc" msprop:DbColumnName="Male" msprop:FriendlyName="Male" type="xs:double" minOccurs="0" />
+                  <xs:element name="Female" msprop:design-time-name="3842e403-6aea-49b7-81ca-5d73c88dbb8f" msprop:DbColumnName="Female" msprop:FriendlyName="Female" type="xs:double" minOccurs="0" />
+                  <xs:element name="Asian" msprop:design-time-name="2b4665e5-43cd-486d-bfcb-29a6a6fce7f7" msprop:DbColumnName="Asian" msprop:FriendlyName="Asian" type="xs:double" minOccurs="0" />
+                  <xs:element name="Latino" msprop:design-time-name="482c3779-9ad0-4f13-9a0a-0b69e3847bce" msprop:DbColumnName="Latino" msprop:FriendlyName="Latino" type="xs:double" minOccurs="0" />
+                  <xs:element name="Black" msprop:design-time-name="480d9782-fae0-47bf-9c01-83afaae0252a" msprop:DbColumnName="Black" msprop:FriendlyName="Black" type="xs:double" minOccurs="0" />
+                  <xs:element name="Multi" msprop:design-time-name="a310aff1-523d-4a6f-b3cb-18b2ceac6667" msprop:DbColumnName="Multi" msprop:FriendlyName="Multi" type="xs:double" minOccurs="0" />
+                  <xs:element name="Non_Binary" msprop:design-time-name="ad4ca647-f639-48de-9042-5d5272fa3ff6" msprop:DbColumnName="Non_Binary" msprop:FriendlyName="Non_Binary" type="xs:double" minOccurs="0" />
+                  <xs:element name="Undeclared" msprop:design-time-name="c3ddfcdb-7aca-48e9-9fcc-75855e5ca0c5" msprop:DbColumnName="Undeclared" msprop:FriendlyName="Undeclared" type="xs:double" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_DimDate" msprop:design-time-name="1ef00b06-a2da-4c14-8e5d-6620378f9e6b" msprop:DbTableName="DimDate" msprop:FriendlyName="DimDate" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="DateKey" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="97c27dbf-891b-4fa5-84af-6e50fb1cf6be" msprop:DbColumnName="DateKey" msprop:FriendlyName="DateKey" type="xs:int" />
+                  <xs:element name="Date" msprop:design-time-name="84ca4b89-2e56-4afb-84f2-b28da75de19a" msprop:DbColumnName="Date" msprop:FriendlyName="Date" type="xs:dateTime" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_DimCompany" msprop:design-time-name="29bc285c-fbfa-4011-921a-cae0bc21ad78" msprop:DbTableName="DimCompany" msprop:FriendlyName="DimCompany" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="CompKey" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="5c80cd77-59f4-4cec-a2ec-76f944927be2" msprop:DbColumnName="CompKey" msprop:FriendlyName="CompKey" type="xs:int" />
+                  <xs:element name="Type" msprop:design-time-name="141df1e3-4fad-4b99-8d92-3947ef908059" msprop:DbColumnName="Type" msprop:FriendlyName="Type" type="xs:string" />
+                  <xs:element name="Company" msprop:design-time-name="cfd01019-7221-4ab4-bd3c-67e823ccf4ac" msprop:DbColumnName="Company" msprop:FriendlyName="Company" type="xs:string" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_StageAreaDiversity" msprop:design-time-name="8fefb070-0c57-4e10-b3de-6d8a6b567e0b" msprop:DbTableName="StageAreaDiversity" msprop:FriendlyName="StageAreaDiversity" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="StageAreaDiversity" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="072db628-4cf8-4bf8-9dfb-3a25b7903124" msprop:DbColumnName="StageAreaDiversity" msprop:FriendlyName="StageAreaDiversity" type="xs:int" />
+                  <xs:element name="Datekey" msprop:design-time-name="a6d3f7ac-579b-47b0-8418-b68f60c7712d" msprop:DbColumnName="Datekey" msprop:FriendlyName="Datekey" type="xs:int" minOccurs="0" />
+                  <xs:element name="CompKey" msprop:design-time-name="6acb3c96-833d-455e-baaf-cfb735166190" msprop:DbColumnName="CompKey" msprop:FriendlyName="CompKey" type="xs:int" minOccurs="0" />
+                  <xs:element name="date" msprop:design-time-name="1bf773f2-c84e-4127-a5a0-cb16462c418f" msprop:DbColumnName="date" msprop:FriendlyName="date" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="Type" msprop:design-time-name="8041ed04-5fc9-40f2-a68d-564fa921a5b6" msprop:DbColumnName="Type" msprop:FriendlyName="Type" type="xs:string" minOccurs="0" />
+                  <xs:element name="Company" msprop:design-time-name="15d93e96-d6de-4cac-8a5c-6f450664bd6e" msprop:DbColumnName="Company" msprop:FriendlyName="Company" type="xs:string" minOccurs="0" />
+                  <xs:element name="EthKey" msprop:design-time-name="4aae5f6a-abe0-4c50-8b41-48ad83b7eafa" msprop:DbColumnName="EthKey" msprop:FriendlyName="EthKey" type="xs:int" minOccurs="0" />
+                  <xs:element name="Male" msprop:design-time-name="d8ecfecc-1808-4196-8e6a-5c7f071bf624" msprop:DbColumnName="Male" msprop:FriendlyName="Male" type="xs:int" minOccurs="0" />
+                  <xs:element name="Female" msprop:design-time-name="a2511f0e-b506-471a-b6f7-e15c72a1b9df" msprop:DbColumnName="Female" msprop:FriendlyName="Female" type="xs:int" minOccurs="0" />
+                  <xs:element name="Asian" msprop:design-time-name="c7044658-54ce-484e-8d76-909155a59e4d" msprop:DbColumnName="Asian" msprop:FriendlyName="Asian" type="xs:int" minOccurs="0" />
+                  <xs:element name="Latino" msprop:design-time-name="02eec3c1-5f54-4bcb-84b9-72025b16d3a8" msprop:DbColumnName="Latino" msprop:FriendlyName="Latino" type="xs:int" minOccurs="0" />
+                  <xs:element name="Black" msprop:design-time-name="55229355-5735-4a70-8e5d-d010b649abb0" msprop:DbColumnName="Black" msprop:FriendlyName="Black" type="xs:int" minOccurs="0" />
+                  <xs:element name="MUlti" msprop:design-time-name="bb6eab86-7323-49f7-9979-921d8ef1f24f" msprop:DbColumnName="MUlti" msprop:FriendlyName="MUlti" type="xs:int" minOccurs="0" />
+                  <xs:element name="Non_Binary" msprop:design-time-name="af61c8a2-0556-46d0-b158-6f30dfb24368" msprop:DbColumnName="Non_Binary" msprop:FriendlyName="Non_Binary" type="xs:int" minOccurs="0" />
+                  <xs:element name="Undeclared" msprop:design-time-name="a1f45205-b381-4ce7-8d66-a31c214468cb" msprop:DbColumnName="Undeclared" msprop:FriendlyName="Undeclared" type="xs:int" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+        <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_FactEthnicity" />
+          <xs:field xpath="EthKey" />
+        </xs:unique>
+        <xs:unique name="dbo_DimDate_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_DimDate" />
+          <xs:field xpath="DateKey" />
+        </xs:unique>
+        <xs:unique name="dbo_DimCompany_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_DimCompany" />
+          <xs:field xpath="CompKey" />
+        </xs:unique>
+        <xs:keyref name="FK__StageArea__Datek__412EB0B6" refer="dbo_DimDate_Constraint1">
+          <xs:selector xpath=".//dbo_StageAreaDiversity" />
+          <xs:field xpath="Datekey" />
+        </xs:keyref>
+        <xs:keyref name="FK__StageArea__EthKe__4222D4EF" refer="Constraint1">
+          <xs:selector xpath=".//dbo_StageAreaDiversity" />
+          <xs:field xpath="EthKey" />
+        </xs:keyref>
+        <xs:keyref name="FK__StageArea__CompK__403A8C7D" refer="dbo_DimCompany_Constraint1">
+          <xs:selector xpath=".//dbo_StageAreaDiversity" />
+          <xs:field xpath="CompKey" />
+        </xs:keyref>
+        <xs:keyref name="FK__FactEthni__Datek__3E52440B" refer="dbo_DimDate_Constraint1">
+          <xs:selector xpath=".//dbo_FactEthnicity" />
+          <xs:field xpath="Datekey" />
+        </xs:keyref>
+        <xs:keyref name="FK__FactEthni__CompK__3F466844" refer="dbo_DimCompany_Constraint1">
+          <xs:selector xpath=".//dbo_FactEthnicity" />
+          <xs:field xpath="CompKey" />
+        </xs:keyref>
+      </xs:element>
+    </xs:schema>
+    <Final_x0020_Project_x0020_Ethnicity_x0020_View xmlns="" />
+  </Schema>
+</DataSourceView>

@@ -1,0 +1,132 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="442b18e9-42a0-4191-b0a0-5073753b4229" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Final Project Demography View</ID>
+  <Name>Final Project Demography View</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+      <Value></Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout />
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>0</DiagramViewPortLeft>
+            <DiagramViewPortTop>0</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>100</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>Final Project</DataSourceID>
+  <Schema>
+    <xs:schema id="Final_x0020_Project_x0020_Demography_x0020_View" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="Final_x0020_Project_x0020_Demography_x0020_View" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="e4fe7b25-c725-4cfb-9fba-553cab77e633">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="dbo_FactDemography" msprop:design-time-name="40395933-2910-4398-a324-d3ff4ed1117b" msprop:DbTableName="FactDemography" msprop:FriendlyName="FactDemography" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="DemographyKey" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="33956eeb-c3a2-4eff-b4b0-527bca02cb3f" msprop:DbColumnName="DemographyKey" msprop:FriendlyName="DemographyKey" type="xs:int" />
+                  <xs:element name="YearKey" msprop:design-time-name="e1b6f15b-c515-434c-bb9b-48c93c09c930" msprop:DbColumnName="YearKey" msprop:FriendlyName="YearKey" type="xs:int" minOccurs="0" />
+                  <xs:element name="DeptKey" msprop:design-time-name="7a75aeaf-500f-4797-a042-0b5ba84a5bf3" msprop:DbColumnName="DeptKey" msprop:FriendlyName="DeptKey" type="xs:int" minOccurs="0" />
+                  <xs:element name="Genderkey" msprop:design-time-name="51a9ce25-85ab-4e3c-b3c7-d6551dab9ab9" msprop:DbColumnName="Genderkey" msprop:FriendlyName="Genderkey" type="xs:int" minOccurs="0" />
+                  <xs:element name="Demography" msprop:design-time-name="a3905532-6bb8-416a-8b59-60516c0a48c4" msprop:DbColumnName="Demography" msprop:FriendlyName="Demography" type="xs:int" minOccurs="0" />
+                  <xs:element name="Distribution_Gender" msprop:design-time-name="8cbefd64-1d9b-475e-a2c4-55a11b8f7bcb" msprop:DbColumnName="Distribution_Gender" msprop:FriendlyName="Distribution_Gender" type="xs:double" minOccurs="0" />
+                  <xs:element name="Total_Distribution" msprop:design-time-name="c7833575-33da-4f53-bc64-a09d1d6eebe0" msprop:DbColumnName="Total_Distribution" msprop:FriendlyName="Total_Distribution" type="xs:double" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_DimYear" msprop:design-time-name="3e940b6f-68cc-4aab-94ac-ce25110d9e09" msprop:DbTableName="DimYear" msprop:FriendlyName="DimYear" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="YearKey" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="fca7b5e5-f2cd-4997-886c-226eda108bda" msprop:DbColumnName="YearKey" msprop:FriendlyName="YearKey" type="xs:int" />
+                  <xs:element name="Year" msprop:design-time-name="65fe811c-7920-42f8-acdc-75d07e4c4f3c" msprop:DbColumnName="Year" msprop:FriendlyName="Year" type="xs:string" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_FactGender" msprop:design-time-name="2c0c7102-590e-44e0-a368-bc348ea478dd" msprop:DbTableName="FactGender" msprop:FriendlyName="FactGender" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="Genderkey" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="8f2f6123-44a5-4b93-b456-66cd83181537" msprop:DbColumnName="Genderkey" msprop:FriendlyName="Genderkey" type="xs:int" />
+                  <xs:element name="EthnicityKey" msprop:design-time-name="e2454c38-2e82-495c-a587-1153326c1b8e" msprop:DbColumnName="EthnicityKey" msprop:FriendlyName="EthnicityKey" type="xs:int" minOccurs="0" />
+                  <xs:element name="DeptKey" msprop:design-time-name="370cb315-66b1-4087-9dbd-84efc2b1b424" msprop:DbColumnName="DeptKey" msprop:FriendlyName="DeptKey" type="xs:int" minOccurs="0" />
+                  <xs:element name="Gender_id" msprop:design-time-name="f09f6403-638d-43e3-b467-d5650311fc80" msprop:DbColumnName="Gender_id" msprop:FriendlyName="Gender_id" type="xs:int" minOccurs="0" />
+                  <xs:element name="Female" msprop:design-time-name="bc171bdc-50cc-4049-b862-5cd35d8e5807" msprop:DbColumnName="Female" msprop:FriendlyName="Female" type="xs:double" minOccurs="0" />
+                  <xs:element name="Male" msprop:design-time-name="3551336f-b82e-48bc-81c4-582532220b03" msprop:DbColumnName="Male" msprop:FriendlyName="Male" type="xs:double" minOccurs="0" />
+                  <xs:element name="Total_Male" msprop:design-time-name="61338b3b-c041-4596-8afc-8bc591293ae0" msprop:DbColumnName="Total_Male" msprop:FriendlyName="Total_Male" type="xs:double" minOccurs="0" />
+                  <xs:element name="Total_Female" msprop:design-time-name="1cf404fe-79d8-447b-b995-54413fd2eed8" msprop:DbColumnName="Total_Female" msprop:FriendlyName="Total_Female" type="xs:double" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_DimDeptType" msprop:design-time-name="0eb18abd-5ede-4f8d-92a8-f11f7b85601f" msprop:DbTableName="DimDeptType" msprop:FriendlyName="DimDeptType" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="DeptKey" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="cb97e67b-1a2c-4a1b-983e-dd899cc74a4f" msprop:DbColumnName="DeptKey" msprop:FriendlyName="DeptKey" type="xs:int" />
+                  <xs:element name="Dept_id" msprop:design-time-name="1d839162-2549-46ab-ae18-e9c523deae05" msprop:DbColumnName="Dept_id" msprop:FriendlyName="Dept_id" type="xs:int" minOccurs="0" />
+                  <xs:element name="Dept_id2" msprop:design-time-name="7679e966-aa33-4186-9f0e-d91944ad01fd" msprop:DbColumnName="Dept_id2" msprop:FriendlyName="Dept_id2" type="xs:int" minOccurs="0" />
+                  <xs:element name="Dept_id3" msprop:design-time-name="951b515e-b585-45c4-acb0-6bcef8fb19ff" msprop:DbColumnName="Dept_id3" msprop:FriendlyName="Dept_id3" type="xs:int" minOccurs="0" />
+                  <xs:element name="Dept_name" msprop:design-time-name="5a2c8365-bfa4-4bdb-a011-a896bec1068e" msprop:DbColumnName="Dept_name" msprop:FriendlyName="Dept_name" type="xs:string" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+        <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_FactDemography" />
+          <xs:field xpath="DemographyKey" />
+        </xs:unique>
+        <xs:unique name="dbo_DimYear_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_DimYear" />
+          <xs:field xpath="YearKey" />
+        </xs:unique>
+        <xs:unique name="dbo_FactGender_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_FactGender" />
+          <xs:field xpath="Genderkey" />
+        </xs:unique>
+        <xs:unique name="dbo_DimDeptType_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_DimDeptType" />
+          <xs:field xpath="DeptKey" />
+        </xs:unique>
+        <xs:keyref name="FK__FactGende__DeptK__5AEE82B9" refer="dbo_DimDeptType_Constraint1">
+          <xs:selector xpath=".//dbo_FactGender" />
+          <xs:field xpath="DeptKey" />
+        </xs:keyref>
+        <xs:keyref name="FK__FactDemog__YearK__5EBF139D" refer="dbo_DimYear_Constraint1">
+          <xs:selector xpath=".//dbo_FactDemography" />
+          <xs:field xpath="YearKey" />
+        </xs:keyref>
+        <xs:keyref name="FK__FactDemog__DeptK__5DCAEF64" refer="dbo_DimDeptType_Constraint1">
+          <xs:selector xpath=".//dbo_FactDemography" />
+          <xs:field xpath="DeptKey" />
+        </xs:keyref>
+        <xs:keyref name="FK__FactDemog__Gende__5CD6CB2B" refer="dbo_FactGender_Constraint1">
+          <xs:selector xpath=".//dbo_FactDemography" />
+          <xs:field xpath="Genderkey" />
+        </xs:keyref>
+      </xs:element>
+    </xs:schema>
+    <Final_x0020_Project_x0020_Demography_x0020_View xmlns="" />
+  </Schema>
+</DataSourceView>

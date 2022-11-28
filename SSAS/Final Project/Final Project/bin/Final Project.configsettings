@@ -1,0 +1,169 @@
+﻿<ConfigurationSettings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Database>
+    <DataSources>
+      <DataSource>
+        <ID>Final Project</ID>
+        <ConnectionString>Provider=SQLNCLI11.1;Data Source=DESKTOP-E0A3SRQ\MSSQLSERVER2017;Integrated Security=SSPI;Initial Catalog=FinalProject</ConnectionString>
+        <ImpersonationInfo>
+          <ImpersonationMode xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">ImpersonateAccount</ImpersonationMode>
+          <Account xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">Jeff</Account>
+          <ImpersonationInfoSecurity xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">PasswordRemoved</ImpersonationInfoSecurity>
+        </ImpersonationInfo>
+      </DataSource>
+    </DataSources>
+    <Dimensions>
+      <Dimension>
+        <ID>Dim Company</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dim Date</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Fact Ethnicity</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dim County</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Fact Race</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Fact Gender</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dim Dept Type</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dim Year</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dim Occupation</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Fact Estimates</ID>
+      </Dimension>
+    </Dimensions>
+    <Cubes>
+      <Cube>
+        <ID>Final Project Ethnicity Cube</ID>
+        <MeasureGroups>
+          <MeasureGroup>
+            <ID>Fact Ethnicity</ID>
+            <Partitions>
+              <Partition>
+                <ID>Fact Ethnicity</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>Stage Area Diversity</ID>
+            <Partitions>
+              <Partition>
+                <ID>Stage Area Diversity</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>Dim Date</ID>
+            <Partitions>
+              <Partition>
+                <ID>Dim Date</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>Dim Company</ID>
+            <Partitions>
+              <Partition>
+                <ID>Dim Company</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+        </MeasureGroups>
+      </Cube>
+      <Cube>
+        <ID>Final Project Race Cube</ID>
+        <MeasureGroups>
+          <MeasureGroup>
+            <ID>Fact Race</ID>
+            <Partitions>
+              <Partition>
+                <ID>Fact Race</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>Dim County</ID>
+            <Partitions>
+              <Partition>
+                <ID>Dim County</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+        </MeasureGroups>
+      </Cube>
+      <Cube>
+        <ID>Final Project Demography Cube</ID>
+        <MeasureGroups>
+          <MeasureGroup>
+            <ID>Fact Demography</ID>
+            <Partitions>
+              <Partition>
+                <ID>Fact Demography</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>Dim Year</ID>
+            <Partitions>
+              <Partition>
+                <ID>Dim Year</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>Fact Gender</ID>
+            <Partitions>
+              <Partition>
+                <ID>Fact Gender</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>Dim Dept Type</ID>
+            <Partitions>
+              <Partition>
+                <ID>Dim Dept Type</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+        </MeasureGroups>
+      </Cube>
+      <Cube>
+        <ID>Final Project Estimate Cube</ID>
+        <MeasureGroups>
+          <MeasureGroup>
+            <ID>Fact Estimates</ID>
+            <Partitions>
+              <Partition>
+                <ID>Fact Estimates</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>Dim Occupation</ID>
+            <Partitions>
+              <Partition>
+                <ID>Dim Occupation</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+        </MeasureGroups>
+      </Cube>
+    </Cubes>
+    <DataSourceImpersonationInfo>
+      <ImpersonationMode xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">Default</ImpersonationMode>
+      <ImpersonationInfoSecurity xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">Unchanged</ImpersonationInfoSecurity>
+    </DataSourceImpersonationInfo>
+  </Database>
+</ConfigurationSettings>

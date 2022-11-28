@@ -1,0 +1,237 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="18e55feb-0284-4119-865b-e067f35b3f15" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Fact Race</ID>
+  <Name>Fact Race</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2369" scrolltop="-4511" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="7779" y="13441" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="FactRace" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3000" height="4419" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b000043110000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_FactRace" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-2369</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-4511</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="7c95846c-9987-47bd-abf7-390cb491fc3d">
+    <DataSourceViewID>Final Project Race View</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="b1c7b355-6de8-4789-9d95-593541c9a982">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="2a6c4b08-d20b-45a2-87e1-35d66668fd62">
+      <ID>Race Key</ID>
+      <Name>Race Key</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e8bf2d18-3cda-429a-907d-a034a1440ce2">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f5845b6b-a98b-427a-bcae-7214e2485aa3">
+            <TableID>dbo_FactRace</TableID>
+            <ColumnID>RaceKey</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="d13a9fca-eb04-4b39-a94e-cd531be9c7bb">
+          <AttributeID>County Key</AttributeID>
+          <Name>County Key</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="9abe3405-ba44-4933-a310-30a49153053c">
+          <AttributeID>White</AttributeID>
+          <Name>White</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="54373865-a2d1-4f9f-8340-20d8238b1e49">
+          <AttributeID>Black</AttributeID>
+          <Name>Black</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="968a3467-a954-4022-b61b-c5486786144f">
+          <AttributeID>Indian</AttributeID>
+          <Name>Indian</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="1c0cd5ba-08bc-4099-9b35-4368c6f5e203">
+          <AttributeID>Asian</AttributeID>
+          <Name>Asian</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="6acfb308-10dd-4af6-b257-732c153113ff">
+          <AttributeID>Pacific</AttributeID>
+          <Name>Pacific</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="2eacaa16-1c81-4951-bad3-18578352faa1">
+          <AttributeID>Other</AttributeID>
+          <Name>Other</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="4b642365-12a2-4344-b487-adc93a21279e">
+      <ID>County Key</ID>
+      <Name>County Key</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="ce3f637f-4991-40e1-8e5b-daab688380ae">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="102aa063-bbcb-4171-b5f5-ce9ba0361eaa">
+            <TableID>dbo_FactRace</TableID>
+            <ColumnID>CountyKey</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="38b0be2d-81d1-4739-9fdc-889a2a7877b8">
+      <ID>White</ID>
+      <Name>White</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="5e083938-caba-4b3c-9aa4-2eecfa6c0077">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="0b83f393-fd24-4a2a-8b35-1af59990c47c">
+            <TableID>dbo_FactRace</TableID>
+            <ColumnID>White</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="75940143-4176-42ba-af72-f290bb04689f">
+      <ID>Black</ID>
+      <Name>Black</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="bf3381b3-d94a-4c97-8d26-8ff281ce6c34">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="63d32518-3888-481c-9d70-feb038835acf">
+            <TableID>dbo_FactRace</TableID>
+            <ColumnID>Black</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="5bd61aa4-016a-4d83-9b2e-1d0e4ca6bddc">
+      <ID>Indian</ID>
+      <Name>Indian</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="7376a807-a409-4d60-81eb-4285eee808fd">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f26a00fe-bb9d-4b9d-b8d4-994f66d6269f">
+            <TableID>dbo_FactRace</TableID>
+            <ColumnID>Indian</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="42b45037-273e-4cc9-a6f4-c55d358a7818">
+      <ID>Asian</ID>
+      <Name>Asian</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="3e1a5a6d-1f08-42f7-b958-71ee98f4a9af">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="1ad265c7-c655-42a0-8e74-5ade342871c2">
+            <TableID>dbo_FactRace</TableID>
+            <ColumnID>Asian</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="346055b0-75e2-4a63-a6ae-a661784a8fbe">
+      <ID>Pacific</ID>
+      <Name>Pacific</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="10438bb4-2050-421d-9b8c-dbc2fbb2d4b7">
+          <DataType>WChar</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="09775082-5918-49f6-9edf-92622e8114a6">
+            <TableID>dbo_FactRace</TableID>
+            <ColumnID>Pacific</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="ea15f479-f6ec-46d6-bf5a-108d095d3024">
+      <ID>Other</ID>
+      <Name>Other</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="fd8bc92f-6e54-49fd-b295-591c48f946b6">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ce249e67-4182-440c-858a-6137bacb2e0c">
+            <TableID>dbo_FactRace</TableID>
+            <ColumnID>Other</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

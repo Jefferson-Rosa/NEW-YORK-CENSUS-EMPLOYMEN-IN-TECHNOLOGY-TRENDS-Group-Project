@@ -1,0 +1,679 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="385d1297-b3cd-4b63-9095-931dcd46b4fa" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Final Project Demography Cube</ID>
+  <Name>Final Project Demography Cube</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="9" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-5865" scrolltop="-1089" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="20849" y="13441" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimYear" left="359" top="9382" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3000" height="1879" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b000057070000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimYear" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="FactDemography" left="20" top="2987" logicalid="2" controlid="2" masterid="0" hint1="0" hint2="0" width="3678" height="3995" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00005e0e00009b0f0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_FactDemography" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimDeptType" left="6098" top="1" logicalid="3" controlid="3" masterid="0" hint1="0" hint2="0" width="3000" height="3149" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b00004d0c0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimDeptType" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="FactGender" left="6098" top="5550" logicalid="4" controlid="4" masterid="0" hint1="0" hint2="0" width="3000" height="4419" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b000043110000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_FactGender" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="1460" top="6682" logicalid="5" controlid="5" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK__FactDemog__YearK__5EBF139D]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="2" sourceattachpoint="4" destattachpoint="7" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="1859" y="9382" />
+              <point x="1859" y="6982" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="3398" top="5234" logicalid="6" controlid="6" masterid="0" hint1="0" hint2="0" width="3000" height="2925" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK__FactDemog__Gende__5CD6CB2B]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="2" sourceattachpoint="16" destattachpoint="23" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="6098" y="7759" />
+              <point x="4898" y="7759" />
+              <point x="4898" y="5534" />
+              <point x="3698" y="5534" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="3398" top="1176" logicalid="7" controlid="7" masterid="0" hint1="0" hint2="0" width="3000" height="3008" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK__FactDemog__DeptK__5DCAEF64]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="2" sourceattachpoint="14" destattachpoint="17" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="6098" y="1575" />
+              <point x="4898" y="1575" />
+              <point x="4898" y="3884" />
+              <point x="3698" y="3884" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="7199" top="2651" logicalid="8" controlid="8" masterid="0" hint1="0" hint2="0" width="799" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK__FactGende__DeptK__5AEE82B9]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="4" sourceattachpoint="5" destattachpoint="4" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="7598" y="3150" />
+              <point x="7598" y="5550" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-5865</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-1089</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>1</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="ff328d5b-5eb3-464d-8663-5c61f7aa248d">
+      <ID>Fact Gender</ID>
+      <Name>Fact Gender</Name>
+      <DimensionID>Fact Gender</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="b27d3044-c980-4c12-a320-b1930e957bda">
+          <AttributeID>Genderkey</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6ddf0a60-a91c-4aac-8c66-bbf74806bde0">
+          <AttributeID>Dept Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="da8d9bb3-29d2-425b-b86d-5375db077e09">
+          <AttributeID>Ethnicity Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="995b6097-bb53-4e00-ac7b-3a9d1cd957e0">
+          <AttributeID>Dept Key 1</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="021c6c15-8622-44ff-8456-9868d6ae32b8">
+          <AttributeID>Gender Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="05ed330c-891c-410f-adab-45e6ad3eced6">
+          <AttributeID>Female</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ac1292d1-97ef-4265-892a-4d54219f85de">
+          <AttributeID>Male</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6fa9080d-fa90-422e-be59-5635c9637d21">
+          <AttributeID>Total Male</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="638c8054-2055-4d8d-a879-75e3ad1563f6">
+          <AttributeID>Total Female</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="d772f504-b04f-4add-a96e-9831fab828dd">
+      <ID>Dim Dept Type</ID>
+      <Name>Dim Dept Type</Name>
+      <DimensionID>Dim Dept Type</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="f36d6f28-12c4-4559-b7fa-bbf1fedaf623">
+          <AttributeID>Dept Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f913a118-2361-4651-928f-2ce89aa67e6f">
+          <AttributeID>Dept Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ac74b22d-54eb-4182-8883-cbbe2fd7615c">
+          <AttributeID>Dept Id2</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="21639817-fea2-47d3-802a-1f5d953f42da">
+          <AttributeID>Dept Id3</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c6dec129-6bcb-476c-8a0c-7d9a4317d46a">
+          <AttributeID>Dept Name</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="b6b388ba-5c7e-4699-8bd0-716a480e8665">
+      <ID>Dim Year</ID>
+      <Name>Dim Year</Name>
+      <DimensionID>Dim Year</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="a747b39f-4684-4d29-bef9-0c1a26e9f316">
+          <AttributeID>Year Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e220e786-e8c7-4d74-9af1-5e6be5b7f3eb">
+          <AttributeID>Year</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="4b0eb343-e08f-4293-b9ce-965e43df4723">
+      <ID>Fact Gender - Dept</ID>
+      <Name>Fact Gender - Dept</Name>
+      <DimensionID>Dim Dept Type</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="cb3f3394-02b3-44ed-9a16-a95eba182f22">
+          <AttributeID>Dept Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="bc37af19-d03b-480e-8455-f0fc6a9a7da2">
+          <AttributeID>Dept Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="4bc4651b-7d71-4c57-8304-3fcf459af91d">
+          <AttributeID>Dept Id2</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="46bfee58-d2c2-4e6f-b81a-8853ba337a77">
+          <AttributeID>Dept Id3</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="9788ad76-9552-436a-a8be-66f22057e8e8">
+          <AttributeID>Dept Name</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="06dc2e2a-8211-4736-ad70-03f3f8b98447">
+      <ID>Fact Demography</ID>
+      <Name>Fact Demography</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="58515242-27fd-4d1e-abe4-88a812c14d0e">
+          <ID>Demography</ID>
+          <Name>Demography</Name>
+          <Source dwd:design-time-name="d7ea1373-4a9b-41dc-ae41-14f192af8fdc">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="f409d902-6bb4-4c52-a87c-37f9a6cb97e4">
+              <TableID>dbo_FactDemography</TableID>
+              <ColumnID>Demography</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="eff86f9c-8933-4e64-83fc-270c3bc89998">
+          <ID>Distribution Gender</ID>
+          <Name>Distribution Gender</Name>
+          <Source dwd:design-time-name="62c71a23-1793-4da1-98db-ce1b9f624d81">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="f33785f7-010a-44ef-8a15-8fca813a0bfd">
+              <TableID>dbo_FactDemography</TableID>
+              <ColumnID>Distribution_Gender</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="cee7daa1-30bd-460b-94bd-47a785ac8831">
+          <ID>Total Distribution</ID>
+          <Name>Total Distribution</Name>
+          <Source dwd:design-time-name="82caa193-b80d-44b9-9c8d-0c32b5a5267a">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="9fceb769-bc49-4d48-8d51-3aad64a20e9f">
+              <TableID>dbo_FactDemography</TableID>
+              <ColumnID>Total_Distribution</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="46c5ea35-596b-45c6-99ad-89bd1b92b986">
+          <ID>Fact Demography Count</ID>
+          <Name>Fact Demography Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="f2ea66da-d778-4405-a894-d50d188dc241">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="1b9304ac-babc-4e7b-a2b3-a5b72bc82ab3">
+              <TableID>dbo_FactDemography</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="d152ec4b-6bc9-4682-a908-df83666995a1">
+          <CubeDimensionID>Fact Gender</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="7670de00-fdd0-4aa8-a6a6-1f8febe4e5da">
+              <AttributeID>Genderkey</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="c24e479e-f8c2-423f-a447-57e61c34ba37">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="0a4ea7d7-ad01-4092-901b-64fbb77e9ec1">
+                    <TableID>dbo_FactDemography</TableID>
+                    <ColumnID>Genderkey</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="b42e93bd-9f05-4ceb-b9f1-2de81a05c270">
+          <CubeDimensionID>Dim Dept Type</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="1e16a82e-7d2f-414e-a949-a5786dfe81c8">
+              <AttributeID>Dept Key</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="c469eb6c-e539-40a6-933f-57b8458c251f">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="e964eab3-3785-4b21-8992-da7e60e82215">
+                    <TableID>dbo_FactDemography</TableID>
+                    <ColumnID>DeptKey</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="604bf2e2-2380-4a31-ac2c-c5e75afbd455">
+          <CubeDimensionID>Dim Year</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="b0087736-749a-4fde-bec1-3ee794ef3a6e">
+              <AttributeID>Year Key</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="a1d4fa96-66d3-4d07-aa77-d76bfd49668f">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="ed2ed1db-82e3-4150-b2d8-dde9a6b2ac48">
+                    <TableID>dbo_FactDemography</TableID>
+                    <ColumnID>YearKey</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="98087ca6-ea5b-4142-8896-a27fa37a8bc9">
+          <CubeDimensionID>Fact Gender - Dept</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="25f53e8b-daba-4c3e-925a-5041d8b940e5">
+              <AttributeID>Dept Key</AttributeID>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+          <IntermediateCubeDimensionID>Fact Gender</IntermediateCubeDimensionID>
+          <IntermediateGranularityAttributeID>Dept Key</IntermediateGranularityAttributeID>
+          <Materialization>Regular</Materialization>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="e1aee19e-cf62-4c79-9423-f3217bc09ee4">
+      <ID>Dim Year</ID>
+      <Name>Dim Year</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="68f97acf-4e8f-465f-a509-f59cc197435c">
+          <ID>Dim Year Count</ID>
+          <Name>Dim Year Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="15708cab-5ed6-4583-bb2f-64e0264a6bef">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="13db3462-7251-469b-b570-f65e0a03fe4f">
+              <TableID>dbo_DimYear</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="abeffd25-1113-4323-a0df-e37e26993c2d">
+          <CubeDimensionID>Dim Year</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="a03913f5-17a5-41a4-b899-978d9017acfb">
+              <AttributeID>Year Key</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="b85cfad5-c5a8-49df-9879-d5df1a074737">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="2808f941-b1fa-4c9a-b81d-a4d976d476c6">
+                    <TableID>dbo_DimYear</TableID>
+                    <ColumnID>YearKey</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="389590ee-a3fc-48ef-91d2-a7b91e047ec9">
+      <ID>Fact Gender</ID>
+      <Name>Fact Gender</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="5206b231-5f98-42db-9521-0fc6b44e609b">
+          <ID>Ethnicity Key</ID>
+          <Name>Ethnicity Key</Name>
+          <Source dwd:design-time-name="735efc5b-68b7-4b9f-8c9f-5d390200ee47">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="490b6900-e4cd-44d5-92a7-1cd64b60061f">
+              <TableID>dbo_FactGender</TableID>
+              <ColumnID>EthnicityKey</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="f61c804f-6efa-4c1c-bed3-146798c3da27">
+          <ID>Gender Id</ID>
+          <Name>Gender Id</Name>
+          <Source dwd:design-time-name="c48b26a7-b075-404f-8b8f-e2df343cbbb9">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="67d6518f-7657-4ca1-8d37-50dc06915d65">
+              <TableID>dbo_FactGender</TableID>
+              <ColumnID>Gender_id</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="3d71a3a3-6a59-4dc5-837e-e778a17c04fb">
+          <ID>Female</ID>
+          <Name>Female</Name>
+          <Source dwd:design-time-name="f395f872-4ecd-4ca9-909b-364d2e4987ed">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="a3898b44-2009-4d3d-b845-2005f739d993">
+              <TableID>dbo_FactGender</TableID>
+              <ColumnID>Female</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="3366f4ad-9869-4cc9-9c5a-72752c223d41">
+          <ID>Male</ID>
+          <Name>Male</Name>
+          <Source dwd:design-time-name="50c9d039-07d9-43e6-9c5c-ba2a05cf0831">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="4d6a80be-84ab-46f7-b3dd-91d85e5ae1e2">
+              <TableID>dbo_FactGender</TableID>
+              <ColumnID>Male</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="2628d776-2dfb-4fb0-ae1f-94c38782557b">
+          <ID>Total Male</ID>
+          <Name>Total Male</Name>
+          <Source dwd:design-time-name="d6ab9844-d6cc-4007-8601-c4e4c0b5e495">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="fc6ac1a9-3477-4fda-9baf-b98b572e499e">
+              <TableID>dbo_FactGender</TableID>
+              <ColumnID>Total_Male</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="df09085f-c1e7-4fdb-9769-dffb983b09ee">
+          <ID>Total Female</ID>
+          <Name>Total Female</Name>
+          <Source dwd:design-time-name="e7b92ee6-ac24-49f4-9938-26870559f13c">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="32349d02-8c0c-43e4-a705-872e9a5be460">
+              <TableID>dbo_FactGender</TableID>
+              <ColumnID>Total_Female</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="ee25fc1f-70dd-4198-98ea-bea0e95fc6c2">
+          <ID>Fact Gender Count</ID>
+          <Name>Fact Gender Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="23a3ef08-004d-45e0-887f-f369ae256e6e">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="14b53e3c-ac41-4ed3-bff3-2c17a255d403">
+              <TableID>dbo_FactGender</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="70681909-6a5e-4c87-a90f-bcc13c1aed93">
+          <CubeDimensionID>Fact Gender</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="3c514845-91bf-484a-b019-b7805cee71a1">
+              <AttributeID>Genderkey</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="539ba377-0e58-4346-a840-99fdd5f57e42">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="37567a6a-7d72-4bc9-9a8d-1db0dd5580ea">
+                    <TableID>dbo_FactGender</TableID>
+                    <ColumnID>Genderkey</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="e6e80f47-1cee-4189-aa36-69718e585ed7">
+          <CubeDimensionID>Dim Dept Type</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="10cbd231-02fc-4d13-979d-63719c12176a">
+              <AttributeID>Dept Key</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="f6c0a174-e710-4b94-8cb6-cf4d2c1a0f28">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="1f7d6fcb-b2f4-4a1a-8bc9-c0c8610d3192">
+                    <TableID>dbo_FactGender</TableID>
+                    <ColumnID>DeptKey</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="b3fcc896-3bd5-4808-b42b-84603d91797c">
+      <ID>Dim Dept Type</ID>
+      <Name>Dim Dept Type</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="681d228d-81d4-4fc6-81ba-ad067e2f7df3">
+          <ID>Dept Id</ID>
+          <Name>Dept Id</Name>
+          <Source dwd:design-time-name="3263586b-aa5e-4ecb-aef5-1d6698f99249">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="723e97d8-43a7-41c8-9e25-cc590a40b4a2">
+              <TableID>dbo_DimDeptType</TableID>
+              <ColumnID>Dept_id</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="6bf8ec4c-338b-4fd7-a554-2cbbc4e12936">
+          <ID>Dept Id2</ID>
+          <Name>Dept Id2</Name>
+          <Source dwd:design-time-name="d73c3577-d7d3-4804-a655-2570b0aef598">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="060195f9-678b-41ff-92c4-c84d7c9a9e8e">
+              <TableID>dbo_DimDeptType</TableID>
+              <ColumnID>Dept_id2</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="a953363a-e98a-40ab-b1f9-e5537b1a3aae">
+          <ID>Dept Id3</ID>
+          <Name>Dept Id3</Name>
+          <Source dwd:design-time-name="45d68fe8-3e3b-4078-b1e1-05ed646775b2">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="2ac61c40-cf40-4249-89e9-c05aaee292f1">
+              <TableID>dbo_DimDeptType</TableID>
+              <ColumnID>Dept_id3</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="718158a8-ba72-4dfd-83a7-1289844fa0b5">
+          <ID>Dim Dept Type Count</ID>
+          <Name>Dim Dept Type Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="51325e66-5eea-4be4-a37a-6488fa9eb6a2">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="e125bb50-d4ba-4471-9c7e-0f1647362ded">
+              <TableID>dbo_DimDeptType</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="37f653c3-7bd8-4458-9474-609fd1284530">
+          <CubeDimensionID>Dim Dept Type</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="e9e5f43d-0b8d-4ab6-a0ab-7384702c15ee">
+              <AttributeID>Dept Key</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="87d4da71-989a-4c47-b3da-d7c1992dd7ba">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="6e114677-3342-4d32-8e1e-e6bc4a29b48a">
+                    <TableID>dbo_DimDeptType</TableID>
+                    <ColumnID>DeptKey</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="7cbd02b2-7d65-4ac6-9a4e-dd882e84d900">
+          <CubeDimensionID>Fact Gender - Dept</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="ed42bb2d-de78-4558-b7f0-eb94199ecd3c">
+              <AttributeID>Dept Key</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="d00f1954-360c-4134-8e1a-8fda4b922e19">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="3a1ac73f-66f7-4a55-98eb-aa409510093a">
+                    <TableID>dbo_DimDeptType</TableID>
+                    <ColumnID>DeptKey</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="998e9eb9-e18c-4365-a9c7-e1fcd86a5a1e">
+    <DataSourceViewID>Final Project Demography View</DataSourceViewID>
+  </Source>
+</Cube>

@@ -1,0 +1,88 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="6a4a213c-b7ad-4852-b59a-90cc2602c93f" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Final Project Race View</ID>
+  <Name>Final Project Race View</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+      <Value></Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout />
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>0</DiagramViewPortLeft>
+            <DiagramViewPortTop>0</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>100</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>Final Project</DataSourceID>
+  <Schema>
+    <xs:schema id="Final_x0020_Project_x0020_Race_x0020_View" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="Final_x0020_Project_x0020_Race_x0020_View" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="43b9c5ea-6a51-496b-8a05-f569f2b796bd">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="dbo_FactRace" msprop:design-time-name="20ea6f43-800e-40a7-819c-6be21b168db6" msprop:DbTableName="FactRace" msprop:FriendlyName="FactRace" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="RaceKey" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="9c72fc9e-3533-41d1-9238-5e3b857d237b" msprop:DbColumnName="RaceKey" msprop:FriendlyName="RaceKey" type="xs:int" />
+                  <xs:element name="CountyKey" msprop:design-time-name="33007790-d05a-4896-95a2-8c2efabba1c3" msprop:DbColumnName="CountyKey" msprop:FriendlyName="CountyKey" type="xs:int" minOccurs="0" />
+                  <xs:element name="White" msprop:design-time-name="4a831f36-2cf5-43b1-be10-d7517f019dff" msprop:DbColumnName="White" msprop:FriendlyName="White" type="xs:double" minOccurs="0" />
+                  <xs:element name="Black" msprop:design-time-name="ec80c57f-f761-4e04-88af-50b80c4dd88f" msprop:DbColumnName="Black" msprop:FriendlyName="Black" type="xs:double" minOccurs="0" />
+                  <xs:element name="Indian" msprop:design-time-name="4293fb70-18f4-48d9-9751-77dbcfeb8269" msprop:DbColumnName="Indian" msprop:FriendlyName="Indian" type="xs:double" minOccurs="0" />
+                  <xs:element name="Asian" msprop:design-time-name="559297b7-83da-4441-b92d-21bd6aee7d96" msprop:DbColumnName="Asian" msprop:FriendlyName="Asian" type="xs:double" minOccurs="0" />
+                  <xs:element name="Pacific" msprop:design-time-name="216f7ad9-e71e-4261-9d5b-fb46a8b3cfa1" msprop:DbColumnName="Pacific" msprop:FriendlyName="Pacific" type="xs:string" minOccurs="0" />
+                  <xs:element name="Other" msprop:design-time-name="a815b0e8-6305-44ea-bdb8-35de03447ae4" msprop:DbColumnName="Other" msprop:FriendlyName="Other" type="xs:double" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_DimCounty" msprop:design-time-name="a00ec019-a14d-4668-9b8d-2043ba0ca119" msprop:DbTableName="DimCounty" msprop:FriendlyName="DimCounty" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="CountyKey" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="4df226eb-5c5d-4c2a-8ef7-dd47b5525d2d" msprop:DbColumnName="CountyKey" msprop:FriendlyName="CountyKey" type="xs:int" />
+                  <xs:element name="County" msprop:design-time-name="17e0417e-abe7-4218-9773-e8f61d5380b7" msprop:DbColumnName="County" msprop:FriendlyName="County" type="xs:string" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+        <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_FactRace" />
+          <xs:field xpath="RaceKey" />
+        </xs:unique>
+        <xs:unique name="dbo_DimCounty_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_DimCounty" />
+          <xs:field xpath="CountyKey" />
+        </xs:unique>
+        <xs:keyref name="FK__FactRace__County__4F47C5E3" refer="dbo_DimCounty_Constraint1">
+          <xs:selector xpath=".//dbo_FactRace" />
+          <xs:field xpath="CountyKey" />
+        </xs:keyref>
+      </xs:element>
+    </xs:schema>
+    <Final_x0020_Project_x0020_Race_x0020_View xmlns="" />
+  </Schema>
+</DataSourceView>

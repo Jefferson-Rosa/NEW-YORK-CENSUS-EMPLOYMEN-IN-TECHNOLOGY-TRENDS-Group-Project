@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1622
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "Report Demography", "Report Demography\Report Demography.rptproj", "{FEF380FA-D161-4167-9E23-13BDB459990C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FEF380FA-D161-4167-9E23-13BDB459990C}.Debug|Default.ActiveCfg = Debug
+		{FEF380FA-D161-4167-9E23-13BDB459990C}.Debug|Default.Build.0 = Debug
+		{FEF380FA-D161-4167-9E23-13BDB459990C}.Debug|Default.Deploy.0 = Debug
+		{FEF380FA-D161-4167-9E23-13BDB459990C}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{FEF380FA-D161-4167-9E23-13BDB459990C}.DebugLocal|Default.Build.0 = DebugLocal
+		{FEF380FA-D161-4167-9E23-13BDB459990C}.Release|Default.ActiveCfg = Release
+		{FEF380FA-D161-4167-9E23-13BDB459990C}.Release|Default.Build.0 = Release
+		{FEF380FA-D161-4167-9E23-13BDB459990C}.Release|Default.Deploy.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A9EC891A-AEEE-4162-B1E5-ED07452AE72F}
+	EndGlobalSection
+EndGlobal
